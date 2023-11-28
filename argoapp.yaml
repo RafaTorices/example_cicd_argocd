@@ -13,7 +13,7 @@ spec:
   project: default # Project where the application will be deployed
   source:
     path: k8s # Path to the application manifests in the Git repository
-    repoURL: https://github.com/RafaTorices/CI-CD-APP-RafaelTorices # Git repository URL
+    repoURL: https://github.com/RafaTorices/example_k8s_deploy_app # Git repository URL
     targetRevision: main # Git branch to deploy from the repository (main by default)
   syncPolicy: # Sync policy for the application
     automated:
