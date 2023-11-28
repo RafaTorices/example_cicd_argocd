@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: keep-app # Name of the application in ArgoCD
+  name: app # Name of the application in ArgoCD
   namespace: argocd # Namespace where ArgoCD is installed
   finalizers:
     - resources-finalizer.argocd.argoproj.io # Finalizer for ArgoCD
